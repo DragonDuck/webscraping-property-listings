@@ -28,7 +28,7 @@ We will be scraping property listings in Kuala Lumpur from `[REDACTED]`. Our goa
 To ensure no issues with the data retrieval itself, files have been downloaded beforehand. Each HTML file corresponds to a page of property listings. Our (altered) scraping process will therefore be to analyze the HTML of the original website to find out how to extract the information we want and then apply that extraction to the HTML files stored on disk; these are direct copies of each listing page.
 
 ## Stage One: Extracting Information
-The first step is to extract information from each HTML page. To speed up the class, my team of highly motivated squirrels downladed all of the property listing pages beforehand. Due to Javascript and CSS issues with offline pages, however, you should look at the (real) listing page ([REDACTED]) and figure out how to extract the following information from each individual property listing:
+The first step is to extract information from each HTML page. To speed up the class, my team of highly motivated squirrels downladed all of the property listing pages beforehand. Due to Javascript and CSS issues with offline pages, however, you should look at the (real) listing page (`[REDACTED]`) and figure out how to extract the following information from each individual property listing:
 
 1. The neighborhood in Kuala Lumpur
 2. The price of the property
